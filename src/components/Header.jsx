@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, User } from 'lucide-react';
 import Button from './ui/Button';
-import { WritingContext } from '../contexts/WritingContext';
+import WritingContext  from '../contexts/WritingContext';
 import { AuthContext } from '../contexts/AuthContext';
 import logo from "../assets/logo.jpg";
 const Header = ({ openAuthModal }) => {
